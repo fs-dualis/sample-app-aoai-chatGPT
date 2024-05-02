@@ -42,16 +42,11 @@ UI_TITLE = os.environ.get("UI_TITLE") or "Contoso"
 UI_LOGO = "/favicon.ico" #os.environ.get("UI_LOGO")
 UI_CHAT_LOGO = "/favicon.ico" #os.environ.get("UI_CHAT_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start chatting"
-<<<<<<< HEAD
-UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "This chatbot is configured to answer your questions"
-UI_FAVICON = "/favicon.ico" #os.environ.get("UI_FAVICON") or "/favicon.ico"
-=======
 UI_CHAT_DESCRIPTION = (
     os.environ.get("UI_CHAT_DESCRIPTION")
     or "This chatbot is configured to answer your questions"
 )
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
->>>>>>> ffa7afe719511a8b436c6e28055a9f96f8c93c50
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
 
