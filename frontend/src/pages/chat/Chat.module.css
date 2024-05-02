@@ -62,13 +62,10 @@
 }
 
 .chatIcon {
-<<<<<<< HEAD
-    height: 120px;
+    height: 25vw;
+    max-height: 200px;
+    min-height: 50px;
     width: auto;
-=======
-  height: 62px;
-  width: auto;
->>>>>>> ffa7afe719511a8b436c6e28055a9f96f8c93c50
 }
 
 .chatMessageStream {
